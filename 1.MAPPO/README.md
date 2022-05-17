@@ -9,3 +9,4 @@ You can dircetly run 'MAPPO_main.py' in your own IDE.<br />
 We train our MAPPO in 'simple_spread' in MPE environment.
 
 ## Trainning result
+![image](https://github.com/Lizhi-sjtu/MARL-code-pytorch/blob/main/1.MAPPO/training%20result.png)
