@@ -20,7 +20,7 @@ gym==0.10.5<br />
 [SMAC-StarCraft Multi-Agent Challenge](https://github.com/oxwhirl/smac)
 
 
-## Trainning result
+## Trainning results
 ![image](https://github.com/Lizhi-sjtu/MARL-code-pytorch/blob/main/2.MAPPO_SMAC/MAPPO_SMAC_training_result.png)
 
 ## Reference
