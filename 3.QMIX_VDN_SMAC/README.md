@@ -27,5 +27,5 @@ gym==0.10.5<br />
 ## Reference
 [1] Rashid T, Samvelyan M, Schroeder C, et al. Qmix: Monotonic value function factorisation for deep multi-agent reinforcement learning[C]//International Conference on Machine Learning. PMLR, 2018: 4295-4304.<br />
 [2] Sunehag P, Lever G, Gruslys A, et al. Value-decomposition networks for cooperative multi-agent learning[J]. arXiv preprint arXiv:1706.05296, 2017.<br />
-[3] [EPyMARL](https://github.com/uoe-agents/epymarl)
-[4] https://github.com/starry-sky6688/StarCraft
+[3] [EPyMARL](https://github.com/uoe-agents/epymarl).<br />
+[4] https://github.com/starry-sky6688/StarCraft.<br />
