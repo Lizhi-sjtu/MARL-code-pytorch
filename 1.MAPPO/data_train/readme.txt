@@ -1,1 +1,0 @@
-This is a file used to store the training reward data.

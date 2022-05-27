@@ -1,1 +1,0 @@
-This is a file used to save the model parameters.
