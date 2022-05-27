@@ -21,7 +21,7 @@ Because the MPE environment is is relatively simple, we do not use RNN in 'actor
 However, we also provide the implementation of using RNN. You can set 'use_rnn'=True in the hyperparameters setting, if you want to use RNN.<br />
 
 ## Trainning result
-![image](https://github.com/Lizhi-sjtu/MARL-code-pytorch/blob/main/1.MAPPO/training%20result.png)
+![image](https://github.com/Lizhi-sjtu/MARL-code-pytorch/blob/main/1.MAPPO_MPE/MAPPO_MPE_training_result.png)
 
 ## Reference
 [1] Yu C, Velu A, Vinitsky E, et al. The Surprising Effectiveness of PPO in Cooperative, Multi-Agent Games[J]. arXiv preprint arXiv:2103.01955, 2021.<br />
