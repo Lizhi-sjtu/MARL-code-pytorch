@@ -3,7 +3,7 @@ This is a concise Pytorch implementation of MAPPO in MPE environment(Multi-Agent
 This code only works in the environments where all agents are homogenous, such as 'Spread' in MPE. Here, all agents have the same dimension of observation space and action space.<br />
 
 ## How to use my code?
-You can dircetly run 'MAPPO_main.py' in your own IDE.<br />
+You can dircetly run 'MAPPO_MPE_main.py' in your own IDE.<br />
 
 ## Trainning environments
 We train our MAPPO in 'simple_spread' in MPE environment.<br />
