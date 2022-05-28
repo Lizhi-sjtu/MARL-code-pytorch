@@ -121,7 +121,6 @@ if __name__ == '__main__':
     parser.add_argument("--episode_limit", type=int, default=25, help="Maximum number of steps per episode")
     parser.add_argument("--evaluate_freq", type=float, default=5000, help="Evaluate the policy every 'evaluate_freq' steps")
     parser.add_argument("--evaluate_times", type=float, default=3, help="Evaluate times")
-    parser.add_argument("--save_freq", type=int, default=int(1e5), help="Save frequency")
 
     parser.add_argument("--batch_size", type=int, default=32, help="Batch size (the number of episodes)")
     parser.add_argument("--mini_batch_size", type=int, default=8, help="Minibatch size (the number of episodes)")
