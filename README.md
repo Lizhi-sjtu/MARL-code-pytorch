@@ -7,10 +7,8 @@ numpy==1.19.4<br />
 pytorch==1.5.0<br />
 tensorboard==0.6.0<br />
 gym==0.10.5<br />
-[Multi-Agent Particle-World Environment(MPE)](https://github.com/openai/multiagent-particle-envs)
-[SMAC-StarCraft Multi-Agent Challenge](https://github.com/oxwhirl/smac)
-
-
+[Multi-Agent Particle-World Environment(MPE)](https://github.com/openai/multiagent-particle-envs)<br />
+[SMAC-StarCraft Multi-Agent Challenge](https://github.com/oxwhirl/smac)<br />
 
 # Trainning results
 ## 1. MAPPO in MPE (discrete action space)
