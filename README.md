@@ -24,3 +24,16 @@ gym==0.10.5<br />
 
 ## 4. MADDPG and MATD3 in MPE (continuous action space)
 ![image](https://github.com/Lizhi-sjtu/MARL-code-pytorch/blob/main/4.MADDPG_MATD3_MPE/MADDPG_MATD3_training_result.png)
+
+# Some Details
+In order to facilitate switching between discrete action space and continuous action space in MPE environments, we make some small modifications in [MPE source code](https://github.com/openai/multiagent-particle-envs).<br />
+ ## 1. make_env.py
+ We add an argument named 'discrete' in 'make_env.py',which is a bool variable.
+ ![image](https://github.com/Lizhi-sjtu/MARL-code-pytorch/blob/main/MPE%20make_env%20modification.png)
+ ## 2. environment.py
+ We also add an argument named 'discrete' in 'environment.py'.
+ ![image](https://github.com/Lizhi-sjtu/MARL-code-pytorch/blob/main/MPE%20environment%20modification.png)
+ ## 3. How to create a MPE environment?
+ If your want to use discrete action space mode, you can use 'env=make_env(scenario_name, discrete=True)' <br />
+ If your want to use continuous action space mode, you can use 'env=make_env(scenario_name, discrete=False)' <br />
+
