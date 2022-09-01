@@ -11,7 +11,7 @@ We train our MAPPO in 'simple_spread' in MPE environment.<br />
 ## Requirements
 python==3.7.9<br />
 numpy==1.19.4<br />
-pytorch==1.5.0<br />
+pytorch==1.12.0<br />
 tensorboard==0.6.0<br />
 gym==0.10.5<br />
 [Multi-Agent Particle-World Environment(MPE)](https://github.com/openai/multiagent-particle-envs)
