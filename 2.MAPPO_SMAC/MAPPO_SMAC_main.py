@@ -88,7 +88,7 @@ class Runner_MAPPO_SMAC:
         self.env.reset()
         if self.args.use_reward_scaling:
             self.reward_scaling.reset()
-        if self.args.use_rnn:  # If use RNN, before the beginning of each episode，reset the rnn_hidden of the Q network.
+        if self.args.use_rnn:  # If use RNN, before the beginning of each episode，reset the rnn_hidden
             self.agent_n.actor.rnn_hidden = None
             self.agent_n.critic.rnn_hidden = None
         for episode_step in range(self.args.episode_limit):
