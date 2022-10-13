@@ -116,7 +116,7 @@ class Runner_MAPPO_MPE:
 
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser("Hyperparameters Setting for MAPPO in SMAC environment")
+    parser = argparse.ArgumentParser("Hyperparameters Setting for MAPPO in MPE environment")
     parser.add_argument("--max_train_steps", type=int, default=int(3e6), help=" Maximum number of training steps")
     parser.add_argument("--episode_limit", type=int, default=25, help="Maximum number of steps per episode")
     parser.add_argument("--evaluate_freq", type=float, default=5000, help="Evaluate the policy every 'evaluate_freq' steps")
